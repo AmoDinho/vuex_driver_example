@@ -1,13 +1,16 @@
 <template>
+
+<div>
   <h1>Driver List </h1>
 
   <ul>
   <li v-for="driver in drivers">
-{{driver.name}} - {{  driver.route}} - {{driver.seats}}- 
+    {{driver.name}} - {{  driver.route}} - {{driver.seats}}- 
     {{driver.price}}
-     mn 
+     
   </li>
   </ul>
+  </div>
 </template>
 
 

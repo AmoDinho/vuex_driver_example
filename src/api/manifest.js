@@ -1,19 +1,19 @@
 const _drivers = [
   { id: 1, name: "Riyaad Smith", route: "CPT Main Road", seats: 15, price: 16 },
   {
-    id: 1,
+    id: 2,
     name: "Simthembisa Mabuza",
     route: "Constaniaburg",
     seats: 10,
     price: 20
   },
-  { id: 1, name: "Dylan De Bryun", route: "Airport", seats: 20, price: 50 },
-  { id: 1, name: "Thompson Nkonzo", route: "Gugulethu", seats: 15, price: 13 }
+  { id: 3, name: "Dylan De Bryun", route: "Airport", seats: 20, price: 50 },
+  { id: 4, name: "Thompson Nkonzo", route: "Gugulethu", seats: 15, price: 13 }
 ];
 
 export default {
   getDrivers(cb) {
-    setTimeout(() => cb(_drivers), 1000);
+    setTimeout(() => cb(_drivers), 100);
   },
 
   bookDrivers(drivers, cb, errorCB) {

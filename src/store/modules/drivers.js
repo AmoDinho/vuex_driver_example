@@ -5,7 +5,6 @@ export default {
   state: {
     carriers: []
   },
-
   getters: {},
   mutations: {},
   actions: {
